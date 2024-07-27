@@ -23,6 +23,7 @@ In your terminal, type:
 ```
 npm install
 npm install react-scripts
+npm install axios
 ```
 
 ### Input OpenAI key into App.js
