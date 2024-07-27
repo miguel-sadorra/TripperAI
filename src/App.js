@@ -28,7 +28,7 @@ const App = () => {
                 max_tokens: 1500,
             }, {
                 headers: {
-                    'Authorization': `Bearer sk-svcacct-tpfTuPn1hBBQpuMAOOc3T3BlbkFJurQoiZECakMkz4Ida2RF`,
+                    'Authorization': `Bearer INPUT_OPENAI_API_KEY`,
                     'Content-Type': 'application/json'
                 }
             });
