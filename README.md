@@ -11,8 +11,9 @@ TripperAI is a ReactJS web application that helps you generate travel itinerarie
 
 ## Screenshots
 
-![Screenshot1](screenshot1.png)
-![Screenshot2](screenshot2.png)
+![sc1](./images/screenshot1.jpeg)
+![sc2](./images/screenshot2.jpeg)
+![sc3](./images/screenshot3.jpeg)
 
 ## Running Program
 
@@ -20,7 +21,8 @@ TripperAI is a ReactJS web application that helps you generate travel itinerarie
 In your terminal, type:
 
 ```
-npm intall
+npm install
+npm install react-scripts
 ```
 
 ### Input OpenAI key into App.js
