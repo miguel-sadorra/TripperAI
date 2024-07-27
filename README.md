@@ -26,9 +26,13 @@ npm install react-scripts
 ```
 
 ### Input OpenAI key into App.js
+
+Replace the code on the [App.js line 31](https://github.com/miguel-sadorra/TripperAI/blob/main/src/App.js#L31) from
 ```
-placeholder = this
+INPUT_OPENAI_API_KEY
 ```
+
+to your OpenAI API key
 
 ### Run the program in your terminal
 In you terminal, type the following line to run the code:
