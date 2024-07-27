@@ -1,0 +1,197 @@
+/*    src/App.css   */
+body {
+  background-color: #203354;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.app-container {
+    position: relative;
+    padding: 20px;
+    font-family: monospace;
+}
+
+/* History Button */
+.hamburger-menu {
+    position: absolute;
+    top: 5vh;
+    left: 2.3vw;
+    width: 80px;
+    margin-left: 5vw;
+    z-index: 10;
+    display: block;
+}
+
+.menu-btn {
+    font-size: 25px;
+    background: #4D4AE8;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-family: Inter, sans-serif;
+    font-size:small;
+}
+
+.menu-btn:hover {
+    background: #0056b3;
+
+}
+
+.history-box {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    width: 250px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.history-box h2 {
+  margin-top: 0;
+}
+
+.history-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history-box li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* End of History Button */
+
+.container-mt-4 button {
+  width: 58%;
+  margin-top: 40px;
+  appearance: button;
+  background-color: #4D4AE8;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+  border: 1px solid #4D4AE8;
+  border-radius: 1rem;
+  box-shadow: rgba(255, 255, 255, 0.15) 0 1px 0 inset,rgba(46, 54, 80, 0.075) 0 1px 1px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: .5rem 1rem;
+  text-align: center;
+  text-transform: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.container-mt-4 button:hover {
+  background-color: #6A69FF; 
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0.1));
+  border-color: #6A69FF; 
+  box-shadow: rgba(255, 255, 255, 0.25) 0 2px 2px inset, rgba(46, 54, 80, 0.15) 0 4px 4px, rgba(46, 54, 80, 0.1) 0 8px 8px;
+  transform: scale(1.05);
+}
+
+
+.container-mt-4 {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: #9667E0;
+    font-size:350%;
+}
+
+form {
+    background-color: none;
+    border-radius: 20px;
+    padding: .5rem 2rem;
+}
+
+form .form-control {
+    border-radius: 15px;
+    height: 30px;
+}
+
+input {
+  width: 50%;
+  height: 5%;
+  text-align: center;
+}
+
+.mb-3, label {
+  display: block;
+  font-size: small;
+}
+
+.mb-3 {
+  color:white;
+  text-align: center;
+
+}
+
+button {
+    width: 100%;
+}
+
+label {
+  display: inline-block;
+  width: 6em;
+  margin-right: .5em;
+  padding-top: 1.5em;
+}
